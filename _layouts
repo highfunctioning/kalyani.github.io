@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Certified Ethical Hacker 🏆 " >
+    <meta name="keywords" content="pentester, pentesting, pentest, cybersecurity, information security">
+    <meta name="robots" content="index,follow" />
+    <title>{{ page.title }}</title>
+    <link href="/css/style.css" type="text/css" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico"/>
+</head>
+<body>
+<div class="generalStyle">
+<img style="width:100px" alt="Logo" src="/img/_.png"/>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+	    <li><a href="https://csbygb.gitbook.io/pentips/">CSbyGB - PenTips</a></li>
+	    <li><a href="/podcasts.html">The World Tour Podcast</a></li>
+	    <li><a href="/blog/atom.xml">RSS</a></li>
+	    <li><a href="https://paypal.me/csbygb">Buy me a Tea<img src="/img/buymeatea3.png" height="32" alt="Buy me a tea"></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+
+    {{ content }}
+
+    </div><!-- /.container -->
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/kalyanibatle//" target="_blank">Linkedin</a></li
+            <li><a href="https://github.com/highfunctioning/csbygb.github.io" target="_blank">Github</a></li>
+        </ul>
+    </footer>
+
+ </div>
+</body>
+</html>
