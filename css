@@ -1,0 +1,93 @@
+body{
+    background-image: url('../img/csbygb.png');
+
+}
+
+.generalStyle {     
+    color:rgba(255,255,255, 1);
+    margin: 60px auto;
+    width: 70%;
+        
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    text-decoration: underline;
+}
+a.post {
+    text-decoration: none;
+    color: red;
+}
+a.post:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color:white;
+}
+h2 {
+    font-size: 1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color:white;
+}
+
+.post p {
+    font-size: 1em;
+    line-height: 1.4em;
+    color:white;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4em;
+    color:white;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+.index {
+    color: white;
+    background-color: rgba(0,0,0,1); /* defines opacity of background */    
+    margin: 60px auto;
+    padding: 15px;
+}
+
+.index ul {
+    font-size: 1.2em;
+}
+/*
+.container{
+    color: white;
+}
+*/
+.post{
+    background-color: rgba(0,0,0,1);
+    color:rgba(255,255,255, 1);
+    margin: 60px auto;
+    padding: 15px;
+    width: 70%;
+}
